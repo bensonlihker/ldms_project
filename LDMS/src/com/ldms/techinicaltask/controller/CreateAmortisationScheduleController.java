@@ -59,8 +59,6 @@ public class CreateAmortisationScheduleController {
 	private boolean vaildInputData(InputData data) {
 		boolean reuslt = false;
 
-		
-		
 		if (data != null) {
 			if (data.getAssetCost() != null && data.getDeposit() != null && data.getInterestRate() != null
 					&& data.getNumberOfTerm() != null) {
